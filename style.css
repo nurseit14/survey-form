@@ -1,0 +1,43 @@
+body{
+    background-color:#914F1E;
+    font-family:Tahoma;
+    color:#DEAC80;
+    text-align:center; 
+}
+hr,fieldset{
+    border:none;
+}
+textarea::placeholder
+{
+    color:#DEAC80;
+}
+textarea
+{
+    background-color: #914F1E;
+    display:block;
+    margin:10px auto;
+    min-width:300px;
+    min-height:100px;
+    width:300px;
+    height:100px;
+    border:1px solid #B5C18E;
+}
+select{
+    background-color:black;
+    color:white;
+    border:1px dotted white;
+}
+fieldset
+{
+    border-bottom: 1px solid #B5C18E;
+}
+fieldset:last-of-type
+{
+    border-bottom:none;
+}
+input[type="text"],input[type="email"],input[type="number"],select,input[type="submit"]
+{
+    background-color:#914F1E;
+    border:1px solid #B5C18E;
+    color:#DEAC80;
+}
